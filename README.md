@@ -30,12 +30,6 @@ The Teaching Assistant (TA) for this course is an integral part of the learning 
 
 Course materials, including lecture notes, assignments, and additional resources, will be provided through the course portal. Students are encouraged to regularly check the portal for updates and announcements.
 
-## GitHub Repository
-
-The TA's GitHub repository contains additional code examples, project templates, and useful resources to assist students in their learning journey. Visit the repository at [TA GitHub](https://github.com/earno).
-
 ## Contact Information
 
-For any questions or concerns regarding the course, please contact Dr. Aliyari during office hours or reach out to the TA via the GitHub repository.
 
-We look forward to a productive and engaging semester!
