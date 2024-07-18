@@ -1,5 +1,8 @@
 # 📚 Projects of Machine Learning Course 402 - K.N.Toosi University of Technology
 
+## Overview
+This repository contains four mini projects focusing on different aspects of machine learning, data preprocessing, visualization, classification, and reinforcement learning. Each project provides a comprehensive overview and practical implementation of various techniques and algorithms.
+
 ## Course Overview
 
 This Machine Learning course at K.N.Toosi University of Technology provides a comprehensive introduction to the field of machine learning. It covers various algorithms, techniques, and tools used in data analysis and predictive modeling. The course is designed to equip students with the knowledge and skills necessary to implement machine learning solutions in real-world scenarios.
@@ -24,10 +27,10 @@ Dr. Aliyari is a renowned expert in the field of machine learning and data scien
 
 ## Course Project
 
-- Mini project 1
-- Mini project 2
-- Mini project 3
-- Mini project 4 (DDQN vs DQN on lunarlander)
+- [Mini project 1](https://github.com/Earnoo/ML4022KNTU/tree/main/Mini%20project%201)
+- [Mini project 2](https://github.com/Earnoo/ML4022KNTU/tree/main/Mini%20project%202)
+- [Mini project 3](https://github.com/Earnoo/ML4022KNTU/tree/main/Mini%20project%203)
+- [Mini project 4 (DDQN vs DQN on lunarlander)](https://github.com/Earnoo/ML4022KNTU/tree/main/DDQN-DQN-on-lunarlander)
 
 ## Contact Information
 
