@@ -20,7 +20,7 @@ The Teaching Assistant (TA) for this course is an integral part of the learning 
 
 - **Introduction to Machine Learning:** Overview of machine learning, its applications, and types.
 - **Supervised Learning:** Techniques including linear regression, logistic regression, decision trees, and support vector machines.
-- **Unsupervised Learning:** Clustering methods such as K-means and hierarchical clustering, dimensionality reduction techniques like PCA.
+- **Unsupervised Learning:** dimensionality reduction techniques like PCA.
 - **Reinforcement Learning:** Basics of reinforcement learning and its applications.
 - **Neural Networks and Deep Learning:** Introduction to neural networks, deep learning architectures, and frameworks.
 - **Model Evaluation and Validation:** Techniques to evaluate and validate the performance of machine learning models.
