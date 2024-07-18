@@ -78,4 +78,16 @@ Orange is an open-source data visualization and analysis tool for novice and exp
 Network for Bearing Fault Classification,” IEEE Access, vol. 9. Institute of Electrical and Electronics
 Engineers (IEEE), pp. 25189–25199, 2021. doi: 10.1109/access.2021.3056944.
 
+## Usage
+
+To use the code in this repository, follow these steps:
+
+1. Clone the repository.
+2. Install the required dependencies.
+3. Run the provided scripts to reproduce the results.
+
+## License
+
+This project is licensed under the MIT License.
+
 
