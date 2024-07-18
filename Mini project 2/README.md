@@ -34,3 +34,15 @@ The final part deals with predicting heart disease using the [heart](https://www
 - Python 3.6 or later
   
 This project showcases the application of various machine learning techniques and models across different datasets, highlighting the importance of data preprocessing, model selection, and performance evaluation.
+
+## Usage
+
+To use the code in this repository, follow these steps:
+
+1. Clone the repository.
+2. Install the required dependencies.
+3. Run the provided scripts to reproduce the results.
+
+## License
+
+This project is licensed under the MIT License.
