@@ -79,8 +79,6 @@ Engineers (IEEE), pp. 25189–25199, 2021. doi: 10.1109/access.2021.3056944.
 ### Prerequisites
 - Python 3.6 or later
 
-
-
 ## Usage
 
 To use the code in this repository, follow these steps:
