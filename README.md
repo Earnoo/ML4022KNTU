@@ -1,4 +1,4 @@
-# Machine Learning Course - KNTU University
+# 📚 Machine Learning Course - KNTU University
 
 ## Course Overview
 
@@ -6,7 +6,7 @@ This Machine Learning course at KNTU University provides a comprehensive introdu
 
 ## Instructor
 
-**Professor:** Dr. Aliyari
+👨‍🏫 **Professor:** Dr. Aliyari
 
 Dr. Aliyari is a renowned expert in the field of machine learning and data science. With years of experience in both academia and industry, Dr. Aliyari brings a wealth of knowledge to the course, ensuring that students gain both theoretical understanding and practical insights.
 
@@ -14,17 +14,17 @@ Dr. Aliyari is a renowned expert in the field of machine learning and data scien
 
 The Teaching Assistant (TA) for this course is an integral part of the learning experience, providing support and additional resources to students.
 
-**Mohammad Javad Ahmadi GitHub Link:** [Mohammad Javad Ahmadi GitHub](https://github.com/MJAHMADEE)
+👨‍💻 **Mohammad Javad Ahmadi GitHub Link:** [Mohammad Javad Ahmadi GitHub](https://github.com/MJAHMADEE)
 
 ## Course Content
 
-- **Introduction to Machine Learning:** Overview of machine learning, its applications, and types.
-- **Supervised Learning:** Techniques including linear regression, logistic regression, decision trees, and support vector machines.
-- **Unsupervised Learning:** dimensionality reduction techniques like PCA.
-- **Reinforcement Learning:** Basics of reinforcement learning and its applications.
-- **Neural Networks and Deep Learning:** Introduction to neural networks, deep learning architectures, and frameworks.
-- **Model Evaluation and Validation:** Techniques to evaluate and validate the performance of machine learning models.
-- **Practical Sessions:** Hands-on sessions with popular machine learning libraries and tools such as Scikit-learn, TensorFlow, and Keras.
+- **📘 Introduction to Machine Learning:** Overview of machine learning, its applications, and types.
+- **📊 Supervised Learning:** Techniques including linear regression, logistic regression, decision trees, and support vector machines.
+- **🔍 Unsupervised Learning:** Dimensionality reduction techniques like PCA.
+- **🎮 Reinforcement Learning:** Basics of reinforcement learning and its applications.
+- **🧠 Neural Networks and Deep Learning:** Introduction to neural networks, deep learning architectures, and frameworks.
+- **📈 Model Evaluation and Validation:** Techniques to evaluate and validate the performance of machine learning models.
+- **💻 Practical Sessions:** Hands-on sessions with popular machine learning libraries and tools such as Scikit-learn, TensorFlow, and Keras.
 
 ## Course Materials
 
@@ -32,10 +32,8 @@ Course materials, including lecture notes, assignments, and additional resources
 
 ## Contact Information
 
-1. **Contact us**: Send an email to [alirezajahani.earno@gmail.com](mailto:alirezajahani.earno@gmail.com) with details of the vulnerability.
-2. **Acknowledgment**: You will receive an acknowledgment within 48 hours of your report.
-3. **Investigation**: We will investigate the reported vulnerability. You will receive updates every 5 business days.
-4. **Resolution**: If the vulnerability is confirmed, we will work on a fix and release a patch. You will be notified when the patch is released.
-5. **Feedback**: If the vulnerability is not accepted, we will provide a detailed explanation.
+For any questions or concerns regarding the course, please contact Dr. Aliyari during office hours or reach out to the TA via the GitHub repository.
 
-Thank you for helping
+📧 **Email:** [alirezajahani.earno@gmail.com](mailto:alirezajahani.earno@gmail.com)
+
+Thank you for helping us maintain a productive and engaging learning environment!
