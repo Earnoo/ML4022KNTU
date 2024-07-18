@@ -1,151 +1,78 @@
-# DDQN Lunar Lander
+# Logistic Regression and Data Preprocessing with Orange
 
-Project Goal:
-------------
+## Introduction
 
-The goal of this project is to train an AI agent to achieve an average score of over 200 points per episode in the Lunar Lander game using reinforcement learning techniques.
+This repository provides an overview of Logistic Regression, essential preprocessing techniques, and how to use the Orange application for data mining and classification tasks. Logistic Regression is a statistical method for binary classification problems. Preprocessing is crucial to ensure the quality of data and improve the performance of machine learning models. Orange is a powerful tool for visual programming in data mining.
 
-Environment:
+## Table of Contents
 
-https://github.com/Earnoo/DDQN-DQN-on-Lunarlander/assets/134099561/01ae160e-9e3f-40f3-8072-52354a722a16
+- [Logistic Regression](#logistic-regression)
+- [Data Preprocessing](#data-preprocessing)
+- [Using Orange for Data Mining](#using-orange-for-data-mining)
+- [Installation](#installation)
+- [Usage](#usage)
+- [References](#references)
 
-------------
-The Lunar Lander environment from OpenAI Gym is utilized. It consists of a continuous state space with 8 dimensions:
-(x, y, v_x, v_y, theta, v_theta, leg_left, leg_right)
+## Logistic Regression
 
-Actions:
---------
-There are 4 discrete actions available:
-1. Do nothing
-2. Fire left orientation engine
-3. Fire main engine
-4. Fire right orientation engine
+Logistic Regression is a predictive analysis algorithm used for binary classification problems. It models the probability of a binary outcome based on one or more predictor variables.
 
-Scoring:
---------
-- Landing on the landing pad: +100 points
-- Crashing or going out of bounds: -100 points
-- Each main engine firing (action 3): -0.3 points
-- Each leg contact with the ground: +10 points
+### Key Points
 
-## Deep Q-Network
-Deep Q-Network (DQN) is a reinforcement learning method that utilizes deep neural networks to approximate the Q-function. The Q-function represents the expected total reward value from taking action $a$ in state $s$ and following the optimal policy thereafter.
+- **Binary Classification**: Logistic Regression is used when the dependent variable is binary (e.g., yes/no, 0/1).
+- **Sigmoid Function**: The logistic function (sigmoid) is used to model the probability that a given input belongs to a particular class.
+- **Log-Odds**: Logistic Regression models the log-odds of the probability of an event occurring.
 
-In DQN, a deep neural network is used as an approximator to calculate Q-values for state-action pairs.
+### Formula
 
-The Q-function update equation in DQN is given by:
+The logistic function is defined as:
 
-Q(s_t, a_t) <- Q(s_t, a_t) + α [r_t + γ max_{a'} Q(s_{t+1}, a') - Q(s_t, a_t)]
+\[ P(y=1|X) = \frac{1}{1 + e^{-(\beta_0 + \beta_1X_1 + \beta_2X_2 + ... + \beta_nX_n)}} \]
 
-Where:
-- $s_t$: State at time $t$
-- $a_t$: Action taken at time $t$
-- $r_t$: Reward received at time $t$
-- $s_{t+1}$: New state after taking action $a_t$
-- $\alpha$: Learning rate
-- $\gamma$: Discount factor
+where \( P(y=1|X) \) is the probability of the event occurring, \( \beta_0 \) is the intercept, and \( \beta_1, \beta_2, ..., \beta_n \) are the coefficients of the predictor variables.
 
-DQN employs Experience Replay and a Target Network to improve learning stability and efficiency. In Experience Replay, agent experiences are stored in a memory buffer and sampled randomly to reduce correlations between experiences. The Target Network is a copy of the main network that is periodically updated episodically to mitigate large fluctuations during learning.
+## Data Preprocessing
 
-## Double Deep Q-Network
-Double Deep Q-Network (DDQN) is an advanced version of the Deep Q-Network (DQN) that addresses issues of stability and learning accuracy in reinforcement learning. The primary issue with DQN is overestimation of Q-values due to using the same network for action selection and evaluation. DDQN mitigates this problem by separating these two tasks into two distinct networks.
+Preprocessing is a crucial step in the data mining pipeline. It involves preparing and cleaning the data to improve the performance of machine learning models.
 
-In DDQN, two neural networks are employed:
-- Policy Network or Main Network: Used for action selection.
-- Target Network: Used for evaluating Q-values.
+### Important Preprocessing Steps
 
-The update equations in DDQN are as follows:
+1. **Missing Value Imputation**: Handle missing values by removing them or imputing with mean, median, or mode.
+2. **Normalization/Standardization**: Scale the data to ensure all features contribute equally to the model.
+3. **Encoding Categorical Variables**: Convert categorical variables into numerical format using techniques like one-hot encoding.
+4. **Feature Selection**: Select the most relevant features to reduce dimensionality and improve model performance.
+5. **Splitting the Dataset**: Divide the dataset into training and testing sets to evaluate the model's performance.
 
-### Action Selection
+## Using Orange for Data Mining
 
-Initially, actions are chosen using the Policy Network:
+Orange is an open-source data visualization and analysis tool for novice and expert users. It allows for interactive data analysis through visual programming or Python scripting.
 
-a* = arg max_a Q(s, a; θ)
+### Key Features
 
-### Computing Target Q-Value
+- **Visual Programming**: Build workflows with drag-and-drop widgets.
+- **Data Visualization**: Explore data with a variety of visualizations.
+- **Machine Learning**: Apply various machine learning algorithms and evaluate their performance.
+- **Preprocessing Widgets**: Perform data preprocessing tasks such as normalization, imputation, and feature selection.
 
-Subsequently, the target Q-value is computed using the Target Network:
+### Steps to Use Orange for Logistic Regression
 
-Q_target = r + γ Q(s', a*; θ^-)
+1. **Load Data**: Use the 'File' widget to load your dataset.
+2. **Preprocess Data**: Use preprocessing widgets like 'Impute', 'Normalize', and 'Select Columns'.
+3. **Split Data**: Use the 'Data Sampler' widget to split the data into training and testing sets.
+4. **Train Model**: Use the 'Logistic Regression' widget to train the model on the training data.
+5. **Evaluate Model**: Use the 'Test & Score' widget to evaluate the model's performance on the test data.
+6. **Visualize Results**: Use the 'Confusion Matrix' and other visualization widgets to interpret the results.
 
-Where:
-- r: Received reward
-- γ: Discount factor
-- s': Next state
-- θ: Parameters of the Policy Network
-- θ^-: Parameters of the Target Network
+## Installation
 
-### Updating Policy Network Parameters
+### Prerequisites
 
-The mean squared error between the target Q-values and predicted Q-values by the Policy Network is computed:
+- Python 3.6 or later
+- Orange 3.25 or later
 
-loss = (1 / N) Σ_{i=1}^N (Q_target - Q(s, a; θ))^2
+### Install Orange
 
-The parameters of the Policy Network are updated using an optimization algorithm (such as Adam).
+You can install Orange via pip:
 
-### Comparing DDQN and DQN
-
-The main difference between DDQN and DQN lies in how the target Q-value is computed. In DQN, the target Q-value is computed as:
-
-Q_target = r + γ max_{a'} Q(s', a'; θ)
-
-This leads to Q-values being overestimated due to using the same network for action selection and evaluation. In contrast, DDQN uses two separate networks for these tasks, which helps reduce overestimation.
-
-In summary:
-- DQN uses one network for both action selection and evaluation, leading to overestimation.
-- DDQN uses two separate networks, which separates action selection and evaluation tasks and helps reduce overestimation.
-
-This improvement allows DDQN to exhibit greater stability in the learning process and achieve better performance in various reinforcement learning tasks.
-
-The following code implements the Double Deep Q-Network (DDQN), introduced by Hasselt et al. in 2016. This code includes three main sections: the neural network model, experience replay memory, and the DDQN agent. Each section of the code is detailed further below.
-
-
-## Dependencies
-+ python >= 3.7.2
-+ jupyter >= 1.0.0
-+ numpy>=1.16.2
-+ gym >= 0.16.0
-+ torch >= 1.4.0
-+ tqdm >= 4.43.0
-
-## Setup
-Please ensure the following packages are already installed. A virtual environment is recommended.
-+ Python (for .py)
-+ Jupyter Notebook (for .ipynb)
-
-```
-$ cd DDQN-Lunar-Lander/
-$ pip3 install pip --upgrade
-$ pip3 install -r requirements.txt
-```
-
-## Output
-
-## Results
-### Learning episodes
-#### Episode 50
-
-https://github.com/Earnoo/DDQN-DQN-on-Lunarlander/assets/134099561/ccfc2f08-6b05-496b-b917-c3f57fa4296a
-
-#### Episode 100
-https://github.com/Earnoo/DDQN-DQN-on-Lunarlander/assets/134099561/7fe1b6ab-95d1-44fd-89bc-2c18e8517e03
-
-#### Episode 250
-
-https://github.com/Earnoo/DDQN-DQN-on-Lunarlander/assets/134099561/2e1a6616-7add-4841-bce8-b9d2bc8b56d0
-
-#### Episode 350
-
-https://github.com/Earnoo/DDQN-DQN-on-Lunarlander/assets/134099561/800e142d-8c1d-4319-98a4-fbd192cc6c92
-
-### DQN
-https://github.com/Earnoo/DDQN-DQN-on-Lunarlander/assets/134099561/5d811f87-e87d-4b4d-b6bf-ac7f281adf8e
-### DDQN Agent
-https://github.com/Earnoo/DDQN-DQN-on-Lunarlander/assets/134099561/7f02f4de-dec3-43f8-b9d0-b83094737411
-
-## Reference
-1. Hasselt, H. V. (2010). Double Q-learning. In Advances in neural information processing systems (pp. 2613-2621).
-2. Van Hasselt, H., Guez, A., & Silver, D. (2016, March). Deep reinforcement learning with double q-learning. In Thirtieth AAAI conference on artificial intelligence.
-3. Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). Openai gym. arXiv preprint arXiv:1606.01540.
-4. Fujimoto, S., Van Hoof, H., & Meger, D. (2018). Addressing function approximation error in actor-critic methods. arXiv preprint arXiv:1802.09477.
-5. (https://mrshininnnnn.github.io/)
+```bash
+pip install orange3
