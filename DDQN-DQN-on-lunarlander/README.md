@@ -149,3 +149,15 @@ https://github.com/Earnoo/DDQN-DQN-on-Lunarlander/assets/134099561/7f02f4de-dec3
 3. Brockman, G., Cheung, V., Pettersson, L., Schneider, J., Schulman, J., Tang, J., & Zaremba, W. (2016). Openai gym. arXiv preprint arXiv:1606.01540.
 4. Fujimoto, S., Van Hoof, H., & Meger, D. (2018). Addressing function approximation error in actor-critic methods. arXiv preprint arXiv:1802.09477.
 5. (https://mrshininnnnn.github.io/)
+
+## Usage
+
+To use the code in this repository, follow these steps:
+
+1. Clone the repository.
+2. Install the required dependencies.
+3. Run the provided scripts to reproduce the results.
+
+## License
+
+This project is licensed under the MIT License.
