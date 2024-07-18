@@ -42,7 +42,7 @@ Dr. Aliyari is a renowned expert in the field of machine learning and data scien
    
 - [Mini project 4 (DDQN vs DQN on lunarlander)](https://github.com/Earnoo/ML4022KNTU/tree/main/DDQN-DQN-on-lunarlander)
   
-The goal of this project is to train an AI agent to achieve an average score of over 200 points per episode in the Lunar Lander game using reinforcement learning techniques.
+  The goal of this project is to train an AI agent to achieve an average score of over 200 points per episode in the Lunar Lander game using reinforcement learning techniques.
 
 ## Contact Information
 
