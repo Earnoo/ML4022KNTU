@@ -30,7 +30,6 @@ This repository contains two main parts:
 2. Standardization: Standardize the features using StandardScaler.
 3. SVM Classification: Train SVM classifiers with different kernels (linear and polynomial) and evaluate their performance using confusion matrices and classification reports.
 4. Decision Boundaries: Plot the decision boundaries for the SVM classifiers after dimensionality reduction using PCA.
-![Q1](https://github.com/user-attachments/assets/20f67e35-cc57-4cbe-9220-4797bf504638)
 <img src="https://github.com/user-attachments/assets/20f67e35-cc57-4cbe-9220-4797bf504638" alt="Q1" width="400" height="300">
 
 ## Credit Card Fraud Detection
