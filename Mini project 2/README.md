@@ -7,6 +7,7 @@ This project is divided into four main parts, each focusing on different aspects
 ## Part 1: McCulloch-Pitts Neuron Visualization
 
 In this part, we visualize the outputs of the McCulloch-Pitts neuron model applied to a set of data points. The model's decision boundaries are illustrated using different activation functions, including threshold, sigmoid, tanh, and relu. This helps in understanding how different activation functions influence the model's behavior and classification.
+![image](https://github.com/user-attachments/assets/8a099477-89fd-4b85-92d0-ed8d69f37364)
 
 ## Part 2: CWRU Bearing Fault Dataset Analysis
 
