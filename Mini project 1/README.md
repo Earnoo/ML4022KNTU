@@ -70,9 +70,4 @@ Orange is an open-source data visualization and analysis tool for novice and exp
 - Python 3.6 or later
 - Orange 3.25 or later
 
-### Install Orange
 
-You can install Orange via pip:
-
-```bash
-pip install orange3
