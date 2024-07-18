@@ -36,11 +36,13 @@ Dr. Aliyari is a renowned expert in the field of machine learning and data scien
 - [Mini project 3](https://github.com/Earnoo/ML4022KNTU/tree/main/Mini%20project%203)
 
   This repository contains two main parts:
-
-1. Visualization and classification of the Iris dataset using PCA, t-SNE, and SVM.
-2. Credit card fraud detection using SMOTE, Autoencoders, and Neural Networks.
+  
+  1. Visualization and classification of the Iris dataset using PCA, t-SNE, and SVM.
+  2. Credit card fraud detection using SMOTE, Autoencoders, and Neural Networks.
    
 - [Mini project 4 (DDQN vs DQN on lunarlander)](https://github.com/Earnoo/ML4022KNTU/tree/main/DDQN-DQN-on-lunarlander)
+  
+The goal of this project is to train an AI agent to achieve an average score of over 200 points per episode in the Lunar Lander game using reinforcement learning techniques.
 
 ## Contact Information
 
