@@ -10,7 +10,6 @@ This repository provides an overview of Logistic Regression, essential preproces
 - [Data Preprocessing](#data-preprocessing)
 - [Using Orange for Data Mining](#using-orange-for-data-mining)
 - [Installation](#installation)
-- [Usage](#usage)
 - [References](#references)
 
 ## Logistic Regression
@@ -66,8 +65,12 @@ Orange is an open-source data visualization and analysis tool for novice and exp
 ## Installation
 
 ### Prerequisites
-
 - Python 3.6 or later
-- Orange 3.25 or later
+
+## References
+
+- ** R. Magar, L. Ghule, J. Li, Y. Zhao, and A. B. Farimani, “FaultNet: A Deep Convolutional Neural
+Network for Bearing Fault Classification,” IEEE Access, vol. 9. Institute of Electrical and Electronics
+Engineers (IEEE), pp. 25189–25199, 2021. doi: 10.1109/access.2021.3056944.
 
 
