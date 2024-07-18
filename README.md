@@ -28,6 +28,7 @@ Dr. Aliyari is a renowned expert in the field of machine learning and data scien
 ## Course Project
 
 - [Mini project 1](https://github.com/Earnoo/ML4022KNTU/tree/main/Mini%20project%201)
+  This repository provides an overview of Logistic Regression, essential preprocessing techniques, and how to use the Orange application for data mining and classification tasks. Logistic Regression is a statistical method for binary classification problems. Preprocessing is crucial to ensure the quality of data and improve the performance of machine learning models. Orange is a powerful tool for visual programming in data mining.
 - [Mini project 2](https://github.com/Earnoo/ML4022KNTU/tree/main/Mini%20project%202)
 - [Mini project 3](https://github.com/Earnoo/ML4022KNTU/tree/main/Mini%20project%203)
 - [Mini project 4 (DDQN vs DQN on lunarlander)](https://github.com/Earnoo/ML4022KNTU/tree/main/DDQN-DQN-on-lunarlander)
