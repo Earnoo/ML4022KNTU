@@ -10,11 +10,7 @@ This Machine Learning course at KNTU University provides a comprehensive introdu
 
 Dr. Aliyari is a renowned expert in the field of machine learning and data science. With years of experience in both academia and industry, Dr. Aliyari brings a wealth of knowledge to the course, ensuring that students gain both theoretical understanding and practical insights.
 
-## Teaching Assistant
-
-The Teaching Assistant (TA) for this course is an integral part of the learning experience, providing support and additional resources to students.
-
-👨‍💻 **Mohammad Javad Ahmadi GitHub Link:** [Mohammad Javad Ahmadi GitHub](https://github.com/MJAHMADEE)
+👨‍💻 **Mohammad Javad Ahmadi (TA) GitHub Link:** [Mohammad Javad Ahmadi GitHub](https://github.com/MJAHMADEE)
 
 ## Course Content
 
@@ -26,9 +22,12 @@ The Teaching Assistant (TA) for this course is an integral part of the learning 
 - **📈 Model Evaluation and Validation:** Techniques to evaluate and validate the performance of machine learning models.
 - **💻 Practical Sessions:** Hands-on sessions with popular machine learning libraries and tools such as Scikit-learn, TensorFlow, and Keras.
 
-## Course Materials
+## Course Project
 
-Course materials, including lecture notes, assignments, and additional resources, will be provided through the course portal. Students are encouraged to regularly check the portal for updates and announcements.
+- Mini project 1
+- Mini project 2
+- Mini project 3
+- Mini project 4 (DDQN vs DQN on lunarlander)
 
 ## Contact Information
 
