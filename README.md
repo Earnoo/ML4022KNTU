@@ -14,7 +14,7 @@ Dr. Aliyari is a renowned expert in the field of machine learning and data scien
 
 The Teaching Assistant (TA) for this course is an integral part of the learning experience, providing support and additional resources to students.
 
-**TA GitHub Link:** [TA GitHub](https://github.com/earno)
+**Mohammad Javad Ahmadi GitHub Link:** [Mohammad Javad Ahmadi GitHub](https://github.com/MJAHMADEE)
 
 ## Course Content
 
