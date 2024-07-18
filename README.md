@@ -1,4 +1,4 @@
-# 📚 Machine Learning Course - K.N.Toosi University of Technology
+# 📚 Machine Learning Course Projects - K.N.Toosi University of Technology
 
 ## Course Overview
 
