@@ -43,8 +43,9 @@ Preprocessing is a crucial step in the data mining pipeline. It involves prepari
 5. **Splitting the Dataset**: Divide the dataset into training and testing sets to evaluate the model's performance.
 
 ## Using Orange for Data Mining
+![image](https://github.com/user-attachments/assets/73dda0f2-8a5f-4d2a-ac50-16e1e6dfa444)
 
-Orange is an open-source data visualization and analysis tool for novice and expert users. It allows for interactive data analysis through visual programming or Python scripting.
+Orange is an open-source data visualization and analysis tool for novice and expert users. It allows for interactive data analysis through visual programming.
 
 ### Key Features
 
