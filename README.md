@@ -1,4 +1,4 @@
-# 📚 Machine Learning Course Projects - K.N.Toosi University of Technology
+# 📚 Projects of Machine Learning Course 402 - K.N.Toosi University of Technology
 
 ## Course Overview
 
