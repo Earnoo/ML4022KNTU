@@ -50,6 +50,7 @@ Orange is an open-source data visualization and analysis tool for novice and exp
 
 ## Datasets
 - [Weather in Szeged 2006-2016](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
+- [CWRU Bearing](https://engineering.case.edu/bearingdatacenter/download-data-file)
 ### Key Features
 
 - **Visual Programming**: Build workflows with drag-and-drop widgets.
