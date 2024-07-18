@@ -1,8 +1,8 @@
-# 📚 Machine Learning Course - KNTU University
+# 📚 Machine Learning Course - K.N.Toosi University of Technology
 
 ## Course Overview
 
-This Machine Learning course at KNTU University provides a comprehensive introduction to the field of machine learning. It covers various algorithms, techniques, and tools used in data analysis and predictive modeling. The course is designed to equip students with the knowledge and skills necessary to implement machine learning solutions in real-world scenarios.
+This Machine Learning course at K.N.Toosi University of Technology provides a comprehensive introduction to the field of machine learning. It covers various algorithms, techniques, and tools used in data analysis and predictive modeling. The course is designed to equip students with the knowledge and skills necessary to implement machine learning solutions in real-world scenarios.
 
 ## Instructor
 
