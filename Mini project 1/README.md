@@ -49,7 +49,7 @@ Preprocessing is a crucial step in the data mining pipeline. It involves prepari
 Orange is an open-source data visualization and analysis tool for novice and expert users. It allows for interactive data analysis through visual programming.
 
 ## Datasets
-- ![Weather in Szeged 2006-2016]([https://github.com/user-attachments/assets/73dda0f2-8a5f-4d2a-ac50-16e1e6dfa444](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data))
+- ![Weather in Szeged 2006-2016](https://www.kaggle.com/datasets/budincsevity/szeged-weather/data)
 ### Key Features
 
 - **Visual Programming**: Build workflows with drag-and-drop widgets.
