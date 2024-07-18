@@ -31,4 +31,5 @@ The final part deals with predicting heart disease using the [heart](https://www
 ## Installation
 ### Prerequisites
 - Python 3.6 or later
+  
 This project showcases the application of various machine learning techniques and models across different datasets, highlighting the importance of data preprocessing, model selection, and performance evaluation.
