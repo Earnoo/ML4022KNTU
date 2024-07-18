@@ -31,8 +31,7 @@ Dr. Aliyari is a renowned expert in the field of machine learning and data scien
 
 ## Contact Information
 
-For any questions or concerns regarding the course, please contact Dr. Aliyari during office hours or reach out to the TA via the GitHub repository.
+For any questions, please contact me.
 
 📧 **Email:** [alirezajahani.earno@gmail.com](mailto:alirezajahani.earno@gmail.com)
 
-Thank you for helping us maintain a productive and engaging learning environment!
