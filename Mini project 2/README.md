@@ -1,4 +1,4 @@
-# McCulloch-Pitts Neuron, Bearing Fault Dataset Analysis, Drug Classification, and Heart Disease Prediction
+# Mini Project 2
 
 ## Overview
 
@@ -27,5 +27,8 @@ The final part deals with predicting heart disease using the [heart](https://www
 - **Implementation and training of an MLP model** with performance evaluation.
 - **Drug classification using Decision Trees and Ensemble Methods** with detailed performance analysis.
 - **Heart disease prediction using Gaussian Naive Bayes**, including performance evaluation and prediction analysis.
-
+  
+## Installation
+### Prerequisites
+- Python 3.6 or later
 This project showcases the application of various machine learning techniques and models across different datasets, highlighting the importance of data preprocessing, model selection, and performance evaluation.
